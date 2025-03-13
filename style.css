@@ -1,0 +1,300 @@
+.Container{
+    width: 72%;
+    margin-left: 4.5cm;
+    padding: 2cm;
+    margin-top: 2cm;
+    position: relative;
+    object-fit: contain;
+    overflow: hidden;
+    background-color: gainsboro;
+}
+#dot{
+    border: dashed 2px;
+}
+
+.shadow{
+    position: absolute;
+    overflow: hidden;
+    width: 35%;
+    height: 10%;
+    background-color: black;
+    transform: rotate(-25deg);
+    top: -1.5%;
+    right: -5%;
+    border-radius: 15%;
+}
+.shad-icon{
+    color: white;
+    margin-left: 25cm;
+    position: absolute;
+    overflow: visible;  
+}
+#basket{
+    margin-left: 0.5cm;
+}
+#user{
+margin-left: 0.5cm;
+}
+#search{
+    margin-left: 0.5cm;
+}
+@font-face{
+    font-family: carra;
+    src: url(MacondoSwashCaps-Regular.ttf);
+}
+#carra{
+    font-family: carra;
+    font-size: 20px;
+}
+
+.first-section{
+    display: flex;
+    gap: 7cm;
+    margin-top: 3cm;
+    z-index: 1;
+    position: relative;
+}
+.second-section{
+    margin-top: 3cm;
+}
+.middle-section{
+    display: flex;
+    gap: 7cm;
+    margin-top: 2.5cm;
+}
+.fourth-section{
+    display: flex;
+    margin-top: 3cm;
+    gap: 7cm;
+}
+
+.ICONS{
+    display: flex;
+    text-align: center;
+    gap: 3cm;
+    margin-left: 2cm;
+    margin-top: 3.5cm;
+}
+.sixth-section{
+    display: flex;
+    margin-top: 3.5cm;
+    gap: 7cm;
+}
+#sixth-image{
+    width: 13cm;
+    height: 13cm;
+    border-radius: 10%;
+
+}
+.seventh-section{
+    display: flex;
+    gap: 4cm;
+    margin-top: 2.5cm;
+}
+.dashboard{
+    display: flex;
+    gap: 2cm;
+    overflow: visible;
+    position:absolute;
+    margin-top: 0.7cm;
+}
+.Number-items{
+    gap: 1.2cm;
+    display: flex;
+    margin-top: 1.2cm;
+}
+.Brands{
+    display: flex;
+    gap: 4.5cm;
+    opacity: 60%;
+    margin-top: 1.2cm;
+
+}
+#ikea{
+    font-family: Chango;
+    font-size: x-large;
+    margin-top: 0.3cm;
+}
+#diptyque{
+    font-size: x-large;
+    margin-top: 0.3cm;
+}
+#desenio{
+    font-family: Comfortaa;
+    font-size: x-large;
+    margin-top: 0.3cm;
+}
+#benuta{
+font-family: Mitr;
+font-size: x-large;
+}
+#westwinc{
+font-family: Libre Caslon Display;
+font-size: x-large;
+margin-top: 0.2cm;
+}
+#first-image{
+    width: 95%;
+    height: 13cm;
+    border-radius: 10%;
+    margin-top: 1cm;
+}
+h1{
+    font-size: 50px;
+    line-height: 2cm;
+}
+#button1{
+    border-radius: 35px;
+    width: 35%;
+    height: 2cm;
+    background-color: rgb(56, 54, 54);
+    color: white;
+    border: none;
+}
+#play-video{
+    margin-left: 1cm;
+    border:none;
+    background-color: gray;
+    width: 8%;
+    height:0.5cm;
+    border-radius: 6px;
+    text-align: center;
+}
+#video{
+    margin-left:0.4cm;
+}
+#collection{
+    font-size: 40px;
+}
+.Vases{
+    display: flex;
+    gap: 2.5cm;
+    
+}
+#vase1{
+    width: 6cm;
+    height: 6.5cm;
+    border-radius: 10%;
+}
+#vase2{
+    width: 6cm;
+    height: 6.5cm;
+    border-radius: 10%;
+    margin-top: 0.4cm;
+}
+#vase3{
+    width: 6cm;
+    height: 6.5cm;
+     border-radius: 10%;
+     margin-top: 0.4cm;
+}
+#vase4{
+    width:6cm;
+    height: 6.5cm;
+    border-radius: 10%;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3cm;
+}
+#home{
+    text-align: center;
+    margin-left: 3cm;
+
+}
+#image6{
+    width:12cm;
+    height: 11cm;
+    border-radius: 10%;
+}
+#button2{
+    border-radius: 35px;
+    width: 35%;
+    height: 1.7cm;
+    color:black;
+    border:1px solid black;
+    margin-top: 0.3cm;
+}
+#button3{
+    border-radius: 35px;
+    width: 35%;
+    height: 1.7cm;
+    color:black;
+    border:1px solid black;
+    margin-top: 0.3cm;  
+}
+#decor{
+    width:12cm;
+    height: 11cm;
+    border-radius: 10%;  
+}
+#shopping{
+    text-align: center;
+}
+#solid{
+    width: 3cm;
+    height: 3cm;
+    border-radius: 10%;
+}
+#guarantee{
+    width: 3cm;
+    height: 3cm;
+    border-radius: 10%;
+}
+#gift{
+    width: 3cm;
+    height: 3cm;
+    border-radius: 10%;
+}
+#order{
+    width: 3cm;
+    height: 3cm;
+    border-radius: 10%;
+}
+#encouragement{
+    text-align: center;
+}
+#Arther{
+    width: 1.5cm;
+    height: 1.5cm;
+    border-radius: 10%;
+}
+#image-arther{
+    display: flex;
+}
+#parker{
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+    font-size: 22px;
+}
+#appearance{
+    margin-top: 1.4cm;
+}
+#arrow-right{
+    display: flex;
+    gap: 10cm;
+}
+
+#play{
+    margin-left: 27cm;
+    color: rgb(155, 151, 151);
+}
+.new{
+    color: red;
+    margin-top: 130px;
+    position: relative;
+    overflow: visible;
+    top: 10%;
+    margin-left: 0.2cm;
+}
+.promo{
+    color: black;
+    position: relative;
+    overflow: visible;
+    top: 10%;
+    margin-left: 45%;
+}
+.fa-thin{
+    margin-top: 1cm;
+}
